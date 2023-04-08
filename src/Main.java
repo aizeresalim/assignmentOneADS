@@ -1,16 +1,13 @@
+import java.util.*;
+
 public class Main {
     public static void main(String[] args) {
-        int[] arr = {10,7,32,3,5};
-        int min = findMin(arr, arr.length);
-        System.out.println("Min from arr is: "+ min + " " + arr.length);
-    }
+        Scanner sc= new Scanner(System.in); //System.in is a standard input stream.
+        System.out.print("Enter task number - ");
+        int taskNumber = sc.nextInt();
 
-    public static int findMin(int[] arr, int n){
-        if(n==1)
-            return arr[0];
-        else{
-            int min  = findMin(arr,n-1);
-            return Math.min(min, arr[n-1]);
+        switch (taskNumber) {
+            case 1: task1.solve();
         }
     }
 }
