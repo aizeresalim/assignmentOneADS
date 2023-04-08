@@ -1,5 +1,5 @@
 public class task1 {
-
+//
 
     public static void solve() {
         int[] arr = {10,7,32,3,5};
