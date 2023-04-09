@@ -65,7 +65,16 @@ public class Main {
                 int cResult = task9.solve(nValue, kValue);
                 System.out.println("C(" + nValue + "," + kValue + ") = " + cResult);
                 break;
-                default:
+            case 10:
+                System.out.print("Enter a: ");
+                int num1 = sc.nextInt();
+                System.out.print("Enter b: ");
+                int num2 = sc.nextInt();
+                int gcdResult = task10.solve(num1, num2);
+                System.out.println("GCD(" + num1 + ", " + num2 + ") = " + gcdResult);
+                break;
+
+            default:
                 System.out.println("Invalid task number");
                 break;
         }
