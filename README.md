@@ -16,7 +16,7 @@ Fourth task - takes an integer input from the user and calculates its factorial 
 The program then calls the findFactorial() method with the user input as an argument. This method uses recursion to calculate the factorial of the input number. If the input is 0 or 1, it simply returns 1 as the factorial of these numbers is defined as 1. Otherwise, it multiplies the input number by the factorial of n-1 until n=1 is reached.
 
 Fifth task - This program implements a method Fibonacci that takes an integer n and returns the nth number in the Fibonacci sequence. How solved: he main method solve prompts the user to input a value for n and calls the Fibonacci method to compute the result, which is then printed to the console.
-
+m
 
 
 Sixth task - The code implements a recursive function solve that takes two integer arguments, a and n, and returns the result of a raised to the power of n. How solved: the function recursively calls itself with the same value of a and n-1 until n becomes 0. When n becomes 0, the function returns 1 as the base case of the recursion.
