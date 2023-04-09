@@ -11,7 +11,7 @@ public class task2 {
         System.out.println("Enter the elements of the array: ");
         for (int i = 0; i < n; i++) {
             arr[i] = input.nextInt();
-        }
+        }     // The loop continues until all n integers have been entered and stored in the array.
 
         double average = calculateAverage(arr);
         System.out.println("The average of the numbers is " + average);
@@ -30,6 +30,6 @@ public class task2 {
             sum += arr[i];
         }
         double average = (double) sum / arr.length;
-        return average;
+        return average;  //The variable "average" is calculated by dividing the sum of all elements by the length of the array, and it is cast to a double to ensure decimal precision
     }
 }

@@ -7,7 +7,7 @@ public class task3 {
         System.out.print("Enter a number: ");
         int n = scanner.nextInt();
         scanner.close();
-        if (isPrime(n))
+        if (isPrime(n))   //k
             System.out.println(n + " is a prime number");
         else
             System.out.println(n + " is not a prime number");

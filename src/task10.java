@@ -6,4 +6,4 @@ public class task10 {
             return solve(b, a % b);
         }
     }
-}
+}   //ojjp

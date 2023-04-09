@@ -13,5 +13,5 @@ public class task7 {
         // Recursive call with start incremented and end decremented
         solve(arr, start + 1, end - 1);
     }
-}
+}  //kkkk
 

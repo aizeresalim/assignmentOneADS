@@ -8,7 +8,7 @@ public class task6 {
         } else {    // Otherwise, call the 'solve' method recursively with a and n-1 as arguments
             return a * solve(a, n - 1);
         }
-    }
+    }  //kkk
 }
 
 

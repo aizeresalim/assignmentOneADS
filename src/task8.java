@@ -12,3 +12,4 @@ public class task8 {
         return solve(s.substring(1));
     }
 }
+  //  knkn

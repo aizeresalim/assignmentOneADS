@@ -8,7 +8,7 @@ public class task4 {
         System.out.print("Enter a number: ");
         int n = sc.nextInt();
         int factorial = findFactorial(n);
-        System.out.println(n + "! = " + factorial);
+        System.out.println(n + "! = " + factorial);  //k
     }
 
 
