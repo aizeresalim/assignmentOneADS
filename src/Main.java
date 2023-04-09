@@ -5,9 +5,9 @@ public class Main {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter task number - ");
-        int taskNumber = sc.nextInt();
+        int taskNumber = sc.nextInt();   //It creates a Scanner object called "sc" to read user input from the console and prompts the user to enter a task number.
 
-        switch (taskNumber) {
+        switch (taskNumber) {   //This code block uses a switch statement to execute the appropriate method based on the value of "taskNumber". For example, if "taskNumber" is equal to 6, the program will prompt the user to enter values for "a
             case 1:
                 task1.solve();
                 break;
