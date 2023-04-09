@@ -56,8 +56,16 @@ public class Main {
                 String s = sc.next();
                 System.out.println(s + " contains only digits: " + task8.solve(s));
                 break;
+            case 9:
+                System.out.print("Enter n: ");
+                int nValue = sc.nextInt();
+                System.out.print("Enter k: ");
+                int kValue = sc.nextInt();
 
-            default:
+                int cResult = task9.solve(nValue, kValue);
+                System.out.println("C(" + nValue + "," + kValue + ") = " + cResult);
+                break;
+                default:
                 System.out.println("Invalid task number");
                 break;
         }
