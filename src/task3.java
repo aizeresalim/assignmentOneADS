@@ -1,12 +1,18 @@
+import java.util.Scanner;
+
 public class task3 {
 
     public static void solve(String[] args) {
-        int n = 7;
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Enter a number: ");
+        int n = scanner.nextInt();
+        scanner.close();
         if (isPrime(n))
             System.out.println(n + " is a prime number");
         else
             System.out.println(n + " is not a prime number");
     }
+
     /*
       @isPrime - checks if n is less than or equal to 1,then it checks if n is less than or equal to 3
       @n - numbers to be checked
