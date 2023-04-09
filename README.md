@@ -34,3 +34,4 @@ Eighth task - The function checks whether the string contains only digits or not
 Ningth task - takes two integer arguments "n" and "k" and returns an integer value. How solved: The method uses recursion to compute the binomial coefficient. If "k" is equal to 0 or "k" is equal to "n", the method returns 1. Otherwise, it recursively calls itself with "n-1" and "k-1" as arguments, and adds the result of that call to the result of another recursive call with "n-1" and "k" as arguments.
 
 Tenth task - This is an implementation of the Euclidean algorithm for finding the greatest common divisor (GCD) of two numbers "a" and "b". How solved: The algorithm works by repeatedly dividing "a" by "b" and taking the remainder until "b" becomes zero. The final remainder, which is the last non-zero value of "b", is the GCD of "a" and "b".
+finish
