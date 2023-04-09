@@ -1,8 +1,22 @@
+import java.util.Scanner;
+
 public class task2 {
     public static void solve() {
-        int[] arr = { 3, 2, 4, 1 };
+        Scanner input = new Scanner(System.in);
+
+        System.out.print("Enter the size of the array: ");
+        int n = input.nextInt();
+
+        int[] arr = new int[n];
+        System.out.println("Enter the elements of the array: ");
+        for (int i = 0; i < n; i++) {
+            arr[i] = input.nextInt();
+        }
+
         double average = calculateAverage(arr);
         System.out.println("The average of the numbers is " + average);
+
+        input.close();
     }
 
     /*

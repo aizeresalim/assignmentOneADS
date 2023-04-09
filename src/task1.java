@@ -1,25 +1,29 @@
-public class task1 {
-//
+import java.util.Scanner;
 
+public class task1 {
     public static void solve() {
-        int[] arr = {10,7,32,3,5};
-        int min = findMin(arr, arr.length);
-        System.out.println("Min from arr is: "+ min + " " + arr.length);
+        Scanner sc = new Scanner(System.in);
+
+        System.out.print("Enter the size of the array: ");
+        int n = sc.nextInt();
+        int[] arr = new int[n];
+
+        System.out.println("Enter " + n + " integers:");
+
+        for (int i = 0; i < n; i++) {
+            arr[i] = sc.nextInt();
+        }
+
+        int min = findMin(arr, n);
+        System.out.println("The minimum value in the array is: " + min);
     }
 
-    /*
-    @findMin - finds minimum in the array of numbers
-    @arr - array of elements
-    @n - the length of array
-    @result - minimum value
-     */
-    private static int findMin(int[] arr, int n){
-        if(n==1)                        // checks if there is only one element in array
+    private static int findMin(int[] arr, int n) {
+        if (n == 1) {
             return arr[0];
-        else{                           // if more than 1
-            int min  = findMin(arr,n-1);
-            int result = Math.min(min, arr[n-1]);
-            return result;
+        } else {
+            int min = findMin(arr, n - 1);
+            return Math.min(min, arr[n - 1]);
         }
     }
 }
