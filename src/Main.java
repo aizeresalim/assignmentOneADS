@@ -51,6 +51,11 @@ public class Main {
                     System.out.print(arr[i] + " ");
                 }
                 break;
+            case 8:
+                System.out.print("Enter a string: ");
+                String s = sc.next();
+                System.out.println(s + " contains only digits: " + task8.solve(s));
+                break;
 
             default:
                 System.out.println("Invalid task number");
